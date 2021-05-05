@@ -10,6 +10,7 @@ Requirements
 
 Setup
 ---
+0. *Make sure you have set the hostname of the Pi in /etc/hostname, given it a static IP and put the hostname and IP address in /etc/hosts*
 1. sudo -s
 2. curl https://gitlab.com/minkebox/pimox/-/raw/master/dev/KEY.gpg | apt-key add -
 3. curl https://gitlab.com/minkebox/pimox/-/raw/master/dev/pimox.list > /etc/apt/sources.list.d/pimox.list
